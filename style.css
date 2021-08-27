@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#EEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 800px;
+    background: rgb(91, 250, 184);
+    margin: 0 auto;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #363636;
+}
+
+
+header  {display: flex;}
+.profile-img{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.header-bio{
+    padding: 50px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:#11999e
+}
+
+.header-contact {
+    padding: 50px;
+}
+
+.header-contact a{
+    text-decoration: none;
+    color:teal;
+    font-weight: bold;
+}
+
+.header-contact a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+
+.row {
+    margin-top: 20px;height: 5px; background-color: black;
+}
+
+.row.small {
+    height: 1px;
+}
+
+.works.small{
+    height: 1px;
+}
+
+/* personal information */
+.information {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 300px auto;
+}
+
+.works {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 300px auto;
+
+}
+
+.skills     {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: 300px auto;
+}
+
+.Education {
+    display: grid;
+    margin:20px;
+    grid-template-columns:300px auto ;
+}
+
+
+
+.abcd{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.sms{
+    display: grid;
+    margin:20px;
+    grid-template-columns:300px auto ;
+ 
+}
+
+.References{
+    display: grid;
+    margin: 20px;
+    grid-template-columns: 300px a;
+}
+
+.and{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.and{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+/* bottom-container */
+
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.bottom-container p{
+    color: white;
+    margin-top: 20px;
+}
